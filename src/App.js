@@ -1,12 +1,13 @@
+import React from "react";
 import Header from "./Header";
 import Dashboard from "./Dashboard";
 import MyNotes from "./MyNotes";
 import MyScrims from "./MyScrims";
 import MyPlaylists from "./MyPlaylists";
 import Home from "./Home";
+import MyCourses from "./MyCourses";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./styles.css";
-import MyCourses from "./MyCoures";
 
 export default function App() {
   return (
