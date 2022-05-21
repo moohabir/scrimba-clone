@@ -1,14 +1,25 @@
 import Header from "./Header";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Dashboard from "./Dashboard";
+import MyNotes from "./MyNotes";
+import MyScrims from "./MyScrims";
+import MyPlaylists from "./MyPlaylists";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./styles.css";
+import MyCourses from "./MyCoures";
 
 export default function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <div className="App">
         <Header />
-        <Routes></Routes>
+        <Routes>
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/mycourses" element={<MyCourses />} />
+          <Route path="/mynotes" element={<MyNotes />} />
+          <Route path="/myscrims" element={<MyScrims />} />
+          <Route path="/myplaylists" element={<MyPlaylists />} />
+        </Routes>
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
