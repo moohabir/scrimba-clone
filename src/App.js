@@ -12,6 +12,7 @@ export default function App() {
   return (
     <Router>
       <div className="App">
+        <Header />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/dashboard" element={<Dashboard />} />

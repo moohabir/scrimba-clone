@@ -4,26 +4,16 @@ export default function Header() {
   return (
     <nav className="header">
       <div>
-        <li>
-          <Link to="/">Scrimba</Link>
-        </li>
+        <Link to="/" className="logo">
+          Scrimba
+        </Link>
       </div>
       <div>
-        <li>
-          <Link to="/dashboard">Dashboard</Link>
-        </li>
-        <li>
-          <Link to="/mycourses">My Courses</Link>
-        </li>
-        <li>
-          <Link to="/mynotes">My Notes</Link>
-        </li>
-        <li>
-          <Link to="/myscrims">My Scrims</Link>
-        </li>
-        <li>
-          <Link to="/myplaylists">My Playlists</Link>
-        </li>
+        <Link to="/dashboard">Dashboard</Link>
+        <Link to="/mycourses">My Courses</Link>
+        <Link to="/mynotes">My Notes</Link>
+        <Link to="/myscrims">My Scrims</Link>
+        <Link to="/myplaylists">My Playlists</Link>
       </div>
 
       <div>
