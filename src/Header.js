@@ -8,7 +8,7 @@ export default function Header() {
           Scrimba
         </Link>
       </div>
-      <div>
+      <div className="header-items">
         <Link to="/dashboard">Dashboard</Link>
         <Link to="/mycourses">My Courses</Link>
         <Link to="/mynotes">My Notes</Link>
