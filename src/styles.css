@@ -1,4 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .App {
   font-family: sans-serif;
   text-align: center;
+}
+.header {
+  display: flex;
+  flex-direction: column;
 }
