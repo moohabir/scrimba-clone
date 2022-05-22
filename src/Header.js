@@ -12,10 +12,18 @@ export default function Header() {
         <Link to="/dashboard" className="dashboard">
           Dashboard
         </Link>
-        <Link to="/mycourses">My Courses</Link>
-        <Link to="/mynotes">My Notes</Link>
-        <Link to="/myscrims">My Scrims</Link>
-        <Link to="/myplaylists">My Playlists</Link>
+        <Link to="/mycourses" className="list-links">
+          My Courses
+        </Link>
+        <Link to="/mynotes" className="list-links">
+          My Notes
+        </Link>
+        <Link to="/myscrims" className="list-links">
+          My Scrims
+        </Link>
+        <Link to="/myplaylists" className="list-links">
+          My Playlists
+        </Link>
       </div>
 
       <div className="right-items">

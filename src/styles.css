@@ -25,7 +25,6 @@
 .right-items {
   display: flex;
   justify-content: space-around;
-
   float: right;
   gap: 16px;
 }
@@ -47,6 +46,16 @@
   text-decoration: underline;
   font-weight: bold;
 }
-.left-items:hover {
+.list-links:hover {
   text-decoration: underline;
+}
+@media screen and (max-width: 768px) {
+  .left-items {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-content: center;
+    margin-left: 10px;
+  }
 }
